@@ -1,0 +1,107 @@
+/* обнуление настроек */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=Raleway:wght@500&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+    font-family: 'Jost', sans-serif;
+    height: 100%;
+}
+/* настройка футера */
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 1 auto;
+}
+/* настройка ссылок */
+a {
+    text-decoration: none;
+    color: #DB3172;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: -0.035em;
+    font-weight: 500;
+    font-size: 0.93vw;
+}
+.bottom a {
+    font-weight: 500;
+    font-size: 1.25vw;
+}
+.bottom {
+    margin-top: 1.3vh;
+}
+.bottom li {
+    margin-right: 1.25vw;
+}
+ul {
+    justify-content: center;
+    display: flex;
+    align-items:center;
+}
+.logo {
+    margin: 0 18vw 0 10vw;
+}
+header {
+    margin: 3.5vh 0 3.5vh 0;
+}
+/* настойка линии */
+footer hr {
+    border: solid 1px #DB3172;
+    width: 89.7vw;
+    margin: 0 auto 1.23vh auto;
+}
+.footer ul {
+    align-items: center;
+}
+.underline li {
+    margin-right: 1.25vw;
+    font-size: 0.72vw;
+    line-height: 83%;
+}
+.footer .pay {
+    margin-right: 0.4vw;
+}
+footer {
+    margin-bottom: 1.23vh;
+}
